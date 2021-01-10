@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/bless"
+            tools:context="com.example.leninbakhara.rentals.SubtleArt">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="The Subtle Art of Not Giving a F*uck"
+                  android:textSize="30sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="20dp"
+                  android:id="@+id/title"
+                  android:textColor="#000000"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Mark Mansion"
+                  android:textSize="15dp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="-1dp"
+                  android:layout_marginLeft="30dp"
+                  android:layout_below="@+id/title"
+                  android:id="@+id/author"
+                  android:textColor="#696969"/>
+        <ImageView android:layout_width="500px"
+                   android:layout_height="550px"
+                   android:src="@drawable/subtle"
+                   android:layout_below="@+id/author"
+                   android:layout_marginTop="30dp"
+                   android:layout_centerHorizontal="true"
+                   android:id="@+id/subtle"/>
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RENT NOW"
+                android:background="@drawable/border"
+                android:layout_below="@+id/subtle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/rent"/>
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD TO WISHLIST"
+                android:background="@drawable/border"
+                android:layout_below="@+id/rent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/wish"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Description"
+                  android:textSize="30sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="20dp"
+                  android:id="@+id/description"
+                  android:textColor="#000000"
+                  android:layout_below="@+id/wish"/>
+        <TableRow
+                android:id="@+id/hr"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#444"
+                android:layout_below="@id/description"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="The book is a reaction to the self-help industry and what Manson saw as a culture of mindless positivity that isn't practical or helpful for most people.[3] Manson uses many of his own personal experiences to illustrate how life's struggles often give it more meaning, which, he argues, is a better approach than constantly trying to be happy."
+                  android:textSize="20sp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="20dp"
+                  android:id="@+id/detail"
+                  android:textColor="#000000"
+                  android:layout_below="@+id/hr"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.leninbakhara.rentals">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Thanks">
+        </activity>
+        <activity android:name=".UserDetails">
+        </activity>
+        <activity android:name=".HTMLCSS">
+        </activity>
+        <activity android:name=".ZeroOne">
+        </activity>
+        <activity android:name=".TheGirl">
+        </activity>
+        <activity android:name=".TheoryOfEverything">
+        </activity>
+        <activity android:name=".SubtleArt">
+        </activity>
+        <activity android:name=".Python">
+        </activity>
+        <activity android:name=".PowerofMind">
+        </activity>
+        <activity android:name=".MasteryManual">
+        </activity>
+        <activity android:name=".MoveFast">
+        </activity>
+        <activity android:name=".LetUsC">
+        </activity>
+        <activity android:name=".ITooHad">
+        </activity>
+        <activity android:name=".HomoSapiens">
+        </activity>
+        <activity android:name=".CanLoveHappen">
+        </activity>
+        <activity android:name=".WingsofFire">
+        </activity>
+        <activity android:name=".logout">
+        </activity>
+        <activity android:name=".SelfHelp">
+        </activity>
+        <activity android:name=".Academics">
+        </activity>
+        <activity android:name=".NonFiction">
+        </activity>
+        <activity android:name=".Fiction">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:label="Rentals"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
